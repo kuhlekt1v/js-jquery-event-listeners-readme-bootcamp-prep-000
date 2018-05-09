@@ -10,10 +10,6 @@ function frameIt() {
     $('img').addClass('tasty');
   });
 }
-
-function pressIt() {
-  $('')
-}  
   
 $(document).ready(function(){
 
