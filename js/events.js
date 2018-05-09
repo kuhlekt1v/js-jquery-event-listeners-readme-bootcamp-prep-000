@@ -12,7 +12,10 @@ function frameIt() {
     return;
   });
 }
-  
+
+function pressIt() {
+  $('')
+}  
   
 $(document).ready(function(){
 
@@ -31,3 +34,4 @@ $('img').on('load', function() {
   });
 
 });
+
