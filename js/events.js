@@ -22,16 +22,10 @@ $(document).ready(function(){
 // call functions here
 
 //Hey! Popup when clicked
-$("p").on("click", function() {
-    alert("Hey!");
-    return;
-  });
+getIt()
   
 //Adds red frame to image
-$('img').on('load', function() {
-    $('img').addClass('tasty');
-    return;
-  });
+frameIt()
 
 });
 
